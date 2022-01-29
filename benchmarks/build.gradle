@@ -31,6 +31,7 @@ dependencies {
             libraries.netty_tcnative,
             libraries.netty_epoll,
             libraries.math
+    implementation "io.grpc:grpc-xds:1.44.0"
     compileOnly libraries.javax_annotation
     alpnagent libraries.jetty_alpn_agent
 
